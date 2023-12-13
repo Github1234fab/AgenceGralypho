@@ -1,7 +1,20 @@
 <script>
-        import Home from '../routes/Home.svelte';
 </script>
-<Home/>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<nav>
+	<a href="/contact">contact</a>
+	<a href="/">about</a>
+	<a href="/Home">home</a>
+</nav>
+
+<main>
+	<h1>base</h1>
+</main>
+
+<style>
+	main {
+		background-color: red;
+		height: 800px;
+		color: white;
+	}
+</style>
